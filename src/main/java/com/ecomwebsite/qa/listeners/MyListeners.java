@@ -1,4 +1,4 @@
-package com.tutorialsninja.qa.listeners;
+package com.ecomwebsite.qa.listeners;
 
 import java.awt.Desktop;
 import java.io.File;
@@ -15,8 +15,8 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.tutorialsninja.qa.utils.ExtentReporter;
-import com.tutorialsninja.qa.utils.Utilities;
+import com.ecomwebsite.qa.utils.ExtentReporter;
+import com.ecomwebsite.qa.utils.Utilities;
 
 public class MyListeners implements ITestListener {
 	

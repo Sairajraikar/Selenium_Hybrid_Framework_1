@@ -1,4 +1,4 @@
-package com.tutorialsninja.qa.testcases;
+package com.ecomwebsite.qa.testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -7,11 +7,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.tutorialsninja.qa.base.Base;
-import com.tutorialsninja.qa.pages.AccountPage;
-import com.tutorialsninja.qa.pages.HomePage;
-import com.tutorialsninja.qa.pages.LoginPage;
-import com.tutorialsninja.qa.utils.Utilities;
+import com.ecomwebsite.qa.base.Base;
+import com.ecomwebsite.qa.pages.AccountPage;
+import com.ecomwebsite.qa.pages.HomePage;
+import com.ecomwebsite.qa.pages.LoginPage;
+import com.ecomwebsite.qa.utils.Utilities;
 
 public class LoginTest extends Base{
 	

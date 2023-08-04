@@ -1,4 +1,4 @@
-package com.tutorialsninja.qa.base;
+package com.ecomwebsite.qa.base;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,7 +11,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
-import com.tutorialsninja.qa.utils.Utilities;
+import com.ecomwebsite.qa.utils.Utilities;
 
 public class Base {
 	

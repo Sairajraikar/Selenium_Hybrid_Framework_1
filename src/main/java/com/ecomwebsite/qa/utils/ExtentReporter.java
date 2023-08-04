@@ -1,4 +1,4 @@
-package com.tutorialsninja.qa.utils;
+package com.ecomwebsite.qa.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,7 +18,7 @@ public class ExtentReporter {
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
 		
 		sparkReporter.config().setTheme(Theme.DARK);
-		sparkReporter.config().setReportName("TutorialsNinja Test Automation Results Report");
+		sparkReporter.config().setReportName("EcommWebsite Test Automation Results Report");
 		sparkReporter.config().setDocumentTitle("TN Automation Report");
 		sparkReporter.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
 		

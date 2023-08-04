@@ -1,4 +1,4 @@
-package com.tutorialsninja.qa.testcases;
+package com.ecomwebsite.qa.testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -6,9 +6,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.tutorialsninja.qa.base.Base;
-import com.tutorialsninja.qa.pages.HomePage;
-import com.tutorialsninja.qa.pages.SearchPage;
+import com.ecomwebsite.qa.base.Base;
+import com.ecomwebsite.qa.pages.HomePage;
+import com.ecomwebsite.qa.pages.SearchPage;
 
 //Updated Comment - Added more details
 
